@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Diğer stil özellikleri -->
+        <item name="popupTheme">@style/PopupOverlay</item>
+    </style>
+
+    <!-- Popup overlay stilini tanımla -->
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light">
+        <!-- Popup overlay stil özellikleri -->
+    </style>
+
+</resources>

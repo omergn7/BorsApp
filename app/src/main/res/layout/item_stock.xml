@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="4dp"
+        >
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="182dp">
+
+    <ImageView
+        android:id="@+id/stockV"
+        android:layout_width="148dp"
+        android:layout_height="183dp"
+        android:padding="10dp"
+        android:src="@mipmap/bobett" />
+
+    <LinearLayout
+        android:layout_width="231dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/stockText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boğaziçi Beton Sanayi"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/stockShortText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BOBET"
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    </androidx.cardview.widget.CardView>
+    </layout>

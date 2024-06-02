@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- Başlık -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hisse Maliyet Hesaplama"
+        android:textSize="24sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:background="@drawable/title_background"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etSharePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hisse Fiyatı"
+        android:minHeight="48dp"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/etShareQuantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Hisse Adedi"
+        android:minHeight="48dp"
+        android:inputType="number"
+        android:background="@drawable/edittext_background"
+        android:padding="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ekle"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesapla"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvTotalCost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam Maliyet: "
+        android:textSize="18sp"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:background="@drawable/textview_background"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/tvAveragePrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Ortalama Fiyat: 0"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:background="@drawable/textview_background"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
+    </layout>
